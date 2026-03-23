@@ -19,7 +19,7 @@ class Bullet(Sprite):
         #Guarda la posicion de la bala con un valor decimal
         self.y = float(self.rect.y)
 
-    
+
     def update(self):
         """Mueve la balla por la pantalla"""
         #Actualiza el valor decimal de la bala
